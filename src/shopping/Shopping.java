@@ -24,10 +24,10 @@ public class Shopping {
         //Variables
         DecimalFormat x = new DecimalFormat("$#,###,###.00");
         Scanner keyedInput = new Scanner(System.in);
-        double usbPrice = 19.99;
-        double keyboardPrice = 49.99;
-        double mousePrice = 25.99;
-        double tax = 1.13;
+        final double usbPrice = 19.99;
+        final double keyboardPrice = 49.99;
+        final double mousePrice = 25.99;
+        final double tax = 1.13;
         int usbQuantity;
         int keyboardQuantity;
         int mouseQuantity;
